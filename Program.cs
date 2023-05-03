@@ -11,7 +11,7 @@ namespace struct_lab_student
         static Student[] ReadData(string fileName)
         {
             // TODO   implement this method.
-            // It should read the file whose fileName has been passed and fill 
+            // It should read the file whose fileName has been passed and fill data inside array of Student
         }
 
         static void runMenu(Student[] studs)
