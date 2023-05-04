@@ -17,7 +17,8 @@ namespace struct_lab_student
         static void runMenu(Student[] studs)
         {
             // TODO   implement this method
-            // It should call method(s) for specific variant(s)
+            // It should call method(s) for specific variant(s).
+            // Arrays studs should already contain data (probably filled with ReadData method)
         }
 
         static void Main(string[] args)
