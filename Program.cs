@@ -15,7 +15,7 @@ namespace struct_lab_student
             // It should read the file whose fileName has been passed and fill data inside array of Student
         }
 
-        static void runMenu(Student[] studs)
+        static void RunMenu(Student[] studs)
         // You may (if want) change ``Student[]'' to ``List<Student>''
         {
             // TODO   implement this method
@@ -26,7 +26,7 @@ namespace struct_lab_student
         static void Main(string[] args)
         {
             Student[] studs = ReadData("input.txt");
-            runMenu(studs);
+            RunMenu(studs);
         }
     }
 }
